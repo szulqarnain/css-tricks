@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+    padding:20px;
+}
+.items{
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+.items div{
+    padding:60px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    min-width: 250px;
+    scroll-snap-align: start;
+}
